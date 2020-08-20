@@ -18,7 +18,7 @@ Add `sails-hook-postcss` to your `devDependencies` in your `package.json` and Sa
 Create a configuration file `config/postcss.js` to specify the plugins you’d like to use. It should look something like the following:
 
 ```javascript
-var cssnext = require(‘cssnext’);
+var cssnext = require('cssnext');
 
 module.exports.postcss = {
   plugins: [
